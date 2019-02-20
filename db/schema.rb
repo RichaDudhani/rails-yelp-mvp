@@ -29,4 +29,5 @@ ActiveRecord::Schema.define(version: 2019_02_20_004018) do
     t.datetime "updated_at", null: false
     t.index ["restaurant_id"], name: "index_reviews_on_restaurant_id"
   end
+
 end
